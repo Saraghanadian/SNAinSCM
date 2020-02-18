@@ -13,7 +13,7 @@ A complete description of all features and  interpretation  can be found at
 the link:
 
 <Journalarticle>
-
+<img src="Rplot.png" />
 ## Installation
 
 You can install SNAinSCM from github with:
