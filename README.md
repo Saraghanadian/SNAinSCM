@@ -9,10 +9,10 @@ Functions in the package allows to:
   - Plot bar charts for all metrics
 
 
-A complete illustration of all features and functions can be found at
+A complete description of all features and  interpretation  can be found at
 the link:
 
-<https://barcaroli.github.io/SamplingStrata/>
+<Journalarticle>
 
 ## Installation
 
