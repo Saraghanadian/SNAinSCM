@@ -11,8 +11,8 @@ Functions in the package allows to:
 
 A complete description of all features and  interpretation  can be found at
 the link:
-
 <Journalarticle>
+  
 <img src="Rplot.png" />
 ## Installation
 
