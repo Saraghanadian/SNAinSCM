@@ -23,7 +23,7 @@ install.packages("SNAinSCM")
 devtools::install_github("saraghanadian/ SNAinSCM ")
 ```
 
-## Example with the “atomic” method
+## Example with the SNA metrics
 
 ``` r
 library(SNAinSCM)
