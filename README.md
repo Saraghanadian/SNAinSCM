@@ -43,11 +43,11 @@ head(assignment)
 My_data <- assignment
 out_degree(my_data) 
 #Facility      degree_centrality
-#8                     9
-#19                    8
-#26                    3
-#33                    17
-#34                    5
+#8                  9
+#19                 8
+#26                 3
+#33                 17
+#34                 5
 #35                 1
 #40                 1
 #41                 2
