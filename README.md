@@ -20,7 +20,7 @@ You can install SNAinSCM from github with:
 
 ``` r
 install.packages("SNAinSCM")
-devtools::install_github("saraghanadian/ SNAinSCM ")
+devtools::install_github("Saraghanadian/SNAinSCM")
 ```
 
 ## Example with the SNA metrics
