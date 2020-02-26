@@ -1,7 +1,7 @@
 \name{plot_SNAOUT}
 \alias{plot_SNAOUT}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ plot_SNAOUT
+\title{ plot_SNA
 %%  ~~function to do ... ~~
 }
 \description{
@@ -30,8 +30,6 @@ Bar charts with value of degree centrality, strength centrality, and  R factor o
 Sara AkbarGhanadian
 }
 
-
-}
 \examples{
 # Not Run:
 data(assignment)
@@ -46,4 +44,3 @@ summary <-SNAOUT(frame )
 Manufacturer_Plot_SNAOUT<- PLot_SNAOUT(summary , 1)
 #End(Not run)
 }
-

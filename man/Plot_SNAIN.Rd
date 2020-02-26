@@ -39,4 +39,3 @@ frame <- Assignment
 Manufacturer_Plot_SNAIN<- PLot_SNAIN(frame , 1)
 #End(Not run)
 }
-
