@@ -30,8 +30,6 @@ Bar charts with value of degree centrality, strength centrality, and  R factor o
 Sara AkbarGhanadian
 }
 
-
-}
 \examples{
 # Not Run:
 data(assignment)
