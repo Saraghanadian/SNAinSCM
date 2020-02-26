@@ -1,8 +1,8 @@
 Package: SNAinSCM
 Type: Package
 Title: Evalaute the supply chain using SNA metrics
-Version: 1.0.0
-Date: 2020-02-01
+Version: 3.6.2
+Date: 2019-12-12
 Author: Sara Akbar Ghanadian
 Maintainer: Sara Akbar Ghanadian <saraghannadian@gmail.com >
 Description: This package provide some social network analysis metrics to be used for network design of supply chains
