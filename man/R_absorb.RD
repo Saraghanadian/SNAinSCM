@@ -31,9 +31,5 @@
   # find R disperse for  Distribution centers
   
   DistributionCenter_R_absorb <- R_absorb(frame)
-  #End(Not run)
-  
+  #End(Not run)  
 }
-
-
-
