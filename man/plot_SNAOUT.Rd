@@ -30,8 +30,6 @@ Bar charts with value of degree centrality, strength centrality, and  R factor o
 Sara AkbarGhanadian
 }
 
-
-}
 \examples{
 # Not Run:
 data(assignment)
@@ -46,4 +44,3 @@ summary <-SNAOUT(frame )
 Manufacturer_Plot_SNAOUT<- PLot_SNAOUT(summary , 1)
 #End(Not run)
 }
-
