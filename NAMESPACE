@@ -1,1 +1,14 @@
-exportPattern("^[[:alpha:]]+")
+useDynLib(SNAinSCM)
+export(in_degree)
+export(out_degree)
+export(in_strength)
+export(out_strength)
+export(SNAOUT)
+export(SNAIN)
+export(plot_SNAOUT)
+export(plot_SNAIN)
+export(R_absorb)
+export(R_disperse)
+export(assigndata)
+
+
