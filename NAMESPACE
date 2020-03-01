@@ -1,4 +1,4 @@
-useDynLib(SNAinSCM)
+
 export(in_degree)
 export(out_degree)
 export(in_strength)
