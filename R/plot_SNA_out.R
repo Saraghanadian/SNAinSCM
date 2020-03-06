@@ -26,17 +26,18 @@ plot_SNA_OUT<- function(df, type){
 
   par(mfrow=c(3,3))
 
-  m <- (max((df$SD_out)/10000)+20)
-  n <- max(df$CD_out)+10
-  barplot(height= (df$CD_out),names.arg=df$Facility
+  m <- ceiling(max((df[,3])/10000)+20)
+  n <- max(df[,2])+10
+  barplot(height= df[,2],names.arg=df$Facility
           ,xlab=type,ylab="CD-out",col="orange", main = "Out-Degree centrality",
           ylim = c(0,n))
 
-  barplot(height= (df$SD_out)/10000, names.arg=df$Facility
+  barplot(height= df[,3]/10000, names.arg=df$Facility
           ,xlab=type,ylab="SD-out(×10e4)",col="light green", main = " Out-degree Strength centrality ",
           ylim = c(0,m))
-  barplot(height=(df$R_disperse),names.arg=df$Facility
+  barplot(height=df[,4],names.arg=df$Facility
           ,xlab=type, ylab="R_disperse",col="light blue", main = " R disperse ",
           ylim = c(0,1))
+
 
 }
