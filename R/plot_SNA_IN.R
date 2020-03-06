@@ -1,6 +1,6 @@
 
 plot_SNA_IN<- function(df, type){
-  
+  df <- as.data.frame(df)
   if ( type ==1){
     type= "Manufacturer"}
   else if (type == 2){
@@ -30,7 +30,7 @@ plot_SNA_IN<- function(df, type){
           ylim = c(0,n))
   
   barplot(height=(df$SD_in)/10000,names.arg=df$Facility
-          ,xlab=type,ylab="SD-in(×10e4)",col="light green", main = " in-degree Strength centrality ",
+          ,xlab=type,ylab="SD-in(Ã—10e4)",col="light green", main = " in-degree Strength centrality ",
           ylim = c(0,m))
   barplot(height=df$R_absorb,names.arg=df$Facility
           ,xlab=type, ylab="R_absorb",col="light blue", main = " R absorb ",
