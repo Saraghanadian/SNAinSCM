@@ -1,7 +1,7 @@
-\name{plot_SNAOUT}
-\alias{plot_SNAOUT}
+\name{plot_SNA_OUT}
+\alias{plot_SNA_OUT}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ plot_SNAOUT
+\title{ plot_SNA_OUT
 %%  ~~function to do ... ~~
 }
 \description{
@@ -41,6 +41,6 @@ summary <-SNAOUT(frame )
 # 2 is distribution centers
 # 3 is retailers/ customers
 # 4 is remanufacturers
-Manufacturer_Plot_SNAOUT<- PLot_SNAOUT(summary , 1)
+Manufacturer_Plot_SNAOUT<- plot_SNA_OUT(summary , 1)
 #End(Not run)
 }
