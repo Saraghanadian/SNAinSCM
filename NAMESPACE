@@ -9,7 +9,6 @@ export(plot_SNA_OUT)
 export(plot_SNA_IN)
 export(R_absorb)
 export(R_disperse)
-export(data)
 importFrom("graphics", plot)
 
 
