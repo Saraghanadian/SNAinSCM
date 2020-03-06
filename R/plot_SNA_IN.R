@@ -23,16 +23,16 @@ plot_SNA_IN<- function(df, type){
   
   par(mfrow=c(3,3))
   
-  m <- (max((df$SD_in)/10000)+20)
+  m <- ceiling((max((df$SD_in)/10000)+20))
   n <- max(df$CD_in)+10
-  barplot(height=df$CD_in,names.arg=df$Facility
+  barplot(height=df[,2],names.arg=df$Facility
           ,xlab=type,ylab="CD-in",col="orange", main = "in-Degree centrality",
           ylim = c(0,n))
   
-  barplot(height=(df$SD_in)/10000,names.arg=df$Facility
+  barplot(height=(df[,3])/10000,names.arg=df$Facility
           ,xlab=type,ylab="SD-in(×10e4)",col="light green", main = " in-degree Strength centrality ",
           ylim = c(0,m))
-  barplot(height=df$R_absorb,names.arg=df$Facility
+  barplot(height=df[,4],names.arg=df$Facility
           ,xlab=type, ylab="R_absorb",col="light blue", main = " R absorb ",
           ylim = c(0,1))
   
