@@ -1,5 +1,5 @@
-\name{plot_SNAIN}
-\alias{plot_SNAIN}
+\name{plot_SNA_IN}
+\alias{plot_SNA_IN}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ plot_SNAIN
 %%  ~~function to do ... ~~
@@ -8,7 +8,7 @@
  Plot SNA metrics in barcharts to be able to comapre the result
 }
 \usage{
-plot_SNA(frame, type)
+plot_SNA_IN(frame, type)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -36,6 +36,6 @@ data(assignment)
 frame <- Assignment
 # create summary of three  metrics in a dataframe
 
-Manufacturer_Plot_SNAIN<- PLot_SNAIN(frame , 1)
+Manufacturer_Plot_SNAIN<- plot_SNA_IN(frame , 1)
 #End(Not run)
 }
