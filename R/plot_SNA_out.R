@@ -2,7 +2,7 @@
 
 
 plot_SNA_OUT<- function(df, type){
-  df <- my_data
+  df <- as.data.frame(df)
 
   if ( type ==1){
     type= "Manufacturer"}
@@ -33,7 +33,7 @@ plot_SNA_OUT<- function(df, type){
           ylim = c(0,n))
 
   barplot(height= (df$SD_out)/10000, names.arg=df$Facility
-          ,xlab=type,ylab="SD-out(×10e4)",col="light green", main = " Out-degree Strength centrality ",
+          ,xlab=type,ylab="SD-out(Ã—10e4)",col="light green", main = " Out-degree Strength centrality ",
           ylim = c(0,m))
   barplot(height=(df$R_disperse),names.arg=df$Facility
           ,xlab=type, ylab="R_disperse",col="light blue", main = " R disperse ",
