@@ -35,7 +35,14 @@ Sara AkbarGhanadian
 data(assignment)
 frame <- Assignment
 # create summary of three  metrics in a dataframe
-
-Manufacturer_Plot_SNAIN<- plot_SNA_IN(frame , 1)
+# create summary of three  metrics in a dataframe
+summary <-SNAIN(frame )
+# select type of facility
+# 1 is Manufacturer
+# 2 is distribution centers
+# 3 is retailers/ customers
+# 4 is remanufacturers
+Manufacturer_Plot_SNAOUT<- PLot_SNA_In(summary , 1)
 #End(Not run)
 }
+
